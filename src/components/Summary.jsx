@@ -4,7 +4,7 @@ import QUESTIONS from "../question.js";
 import { useDispatch, useSelector } from "react-redux";
 import { userAction } from "../store/userAnsSlice.js";
 
-function Summary({ userAnswer, setUserAnswer }) {
+function Summary() {
 
   const userAnswers = useSelector(state=>state.userAns.userAnsweres)
 
