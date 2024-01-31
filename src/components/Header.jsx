@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
         <img src={quiz_logo} alt="logo" />
-        <h1>React Quiz App</h1>
+        <h1>React Redux Quiz App</h1>
     </header>
   )
 }
